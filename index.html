@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+    <meta name="keywords" content="Your Name, portfolio, software engineer, Java, SQL, Kafka, DevOps, Generative AI, backend development">
+    <meta name="description" content="Your Name's Portfolio">
+    <title>Your Name's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300; /* Light 300 for body text */
+            background-color: #FFFFFF;
+            color: black;
+        }
+
+        h1, h2, h3, h4, h5, h6, font[size="+1"] {
+            font-weight: 400; /* Light 400 for headings */
+        }
+
+        .profile-pic {
+        width: 200px;         /* control width */
+        height: 200px;        /* control height / cropping */
+        overflow: hidden;
+        border-radius: 12px;  /* optional rounded look */
+        }
+
+        .profile-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    /* ensures it fills + crops */
+        object-position: top; /* keeps head/top visible */
+        display: block;
+        max-width: 100%;
+        height: auto;
+        }
+
+        .job-row {
+        display: flex;
+        justify-content: space-between; /* pushes them to extreme ends */
+        align-items: baseline;
+        }
+
+        .date {
+        white-space: nowrap; /* keeps the date on one line */
+        }
+        /* a {
+            text-decoration: none;
+            color: #004FB;
+        } */
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body bgcolor="#FFFFFF" link="#004FB" vlink="#004FB">
+
+<table cellpadding="4" width="602" border="0" cellspacing="2">
+  <tr>
+    <td width="40%">
+      <div class="profile-pic">
+        <img src="self.jpeg" alt="Your Name">
+      </div>
+    </td>
+    <td width="60%">
+      <p style="text-align: justify;">
+        New Grad <strong>Software Engineer</strong>, with a Master's degree in Computer Science, seasoned with experience in Generative AI, Software Backend Engineering, Data Science, Software Architecture & Algorithms research with organizations such as JGM Innovation, Michelin, Hungreebee, JCB & HAL Ministry of Defense, Government of India.
+      </p>
+    </td>
+  </tr>
+</table>
+
+[<a href="https://drive.google.com/file/d/14Kbdn-7b3DgclrYkYy-2FL4DOcmAC-9y/view?usp=sharing" 
+   target="_blank" 
+   rel="noopener noreferrer">Resume</a>]
+
+[<a href="#education">Education</a>]
+[<a href="#experience">Experience</a>]
+[<a href="#projects">Projects</a>]
+[<a href="#research">Research & Publications</a>]
+[<a href="#certifications">Certifications</a>]
+[<a href="#skills">Skills</a>]
+[<a href="#contact">Contact</a>]
+
+<span id="current-time"></span>
+
+<script>
+function updateTime() {
+  const now = new Date();
+  const options = {
+    timeZone: "America/New_York",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit"
+  };
+  const timeString = new Intl.DateTimeFormat("en-US", options).format(now);
+  document.getElementById("current-time").textContent = ` [Timezone: ${timeString} EDT]`;
+}
+
+setInterval(updateTime, 1000);
+updateTime();
+</script>
+<hr>
+<a name="education">
+    <font color="black" size="+1">Education</font>
+    <p>
+        <ol>
+            <li>
+                <b>MS in Computer Science</b>, <a href="https://www.binghamton.edu/">Binghamton University</a>, New York, United States  - December 2025
+            </li>
+            <br>
+            <li>
+                 <b>BTech in Computer Science & Engineering</b>, <a href="  https://mitwpu.edu.in/">MIT-WPU</a>, Pune, India - May 2022
+               
+            </li>
+             <br>
+            <li>
+                 <b>Diploma in Computer Engineering</b>, <a href="https://cwit.mespune.org/">Cusrow Wadia Institute of Technology</a>, Pune, India - May 2019
+            </li>
+             <br>
+            <li>
+                 <b>Technical / High School</b>, <a href="https://jnpetitschool.org/">J N Petit Technical High School</a>, Pune, India - May 2016
+            </li>
+        </ol>
+    </p>
+</a>
+<hr>
+<a name="experience">
+    <font color="black" size="+1">Experience</font>
+    <p>
+        <ol>
+            <li>
+                <b>AI Software Engineer Intern</b>, <a href="https://www.jgminnovation.org/">JGM Innovation</a>, New York City, United States  - [September 2025 to Present]
+            </li>
+            <br>
+            <li>
+                <b>Technology Analyst</b>, <a href="https://www.michelin.com/en/">Michelin</a>, Pune, India  - [July 2022 to July 2023]
+            </li>
+            <br>
+            <li>
+                <b>Software Engineer Intern</b>, <a href="">HungreeBee Technologies LLP</a>, Pune, India  - [April 2021 to July 2021]
+            </li>
+            <br>
+            <li>
+                <b>Junior Software Developer Intern</b>, <a href="https://www.jcb.com/en-in">JCB India</a>, Pune, India  - [March 2021 to April 2021]
+            </li>
+            <br>
+            <li>
+                <b>Software Engineering Intern</b>, <a href="https://hal-india.co.in/">Hindustan Aeronautics Limited (Ministry of Defense, Gov. of India)</a>, Nashik, India  - [May 2018 to June 2018]
+            </li>
+        </ol>
+    </p>
+</a>
+<hr>
+<a name="projects">
+    <font color="black" size="+1">Projects</font>
+    <p>
+        Note: I have listed my current/new projects over here. More projects can be found on my <a href="https://github.com/sbidwaibing">Github</a> page.
+        <ol>
+            <li>
+                (<a href="https://github.com/sbidwaibing">Github</a>) CodeForge - Retrieval-Augmented Generation System | Python, Chat API, Pinecone, NumPy, Transformers, Jupyter Widgets, NLP:<br>
+                <b>*Currently working under Prof. M. Govindaraju for this project</b><br>
+                Desc: Built a Retrieval-Augmented Generation (RAG) system using Python, Pinecone, and Transformers for efficient GitHub codebase querying. Integrated LLMs with caching and reinforcement learning, achieving ~89% accuracy compared to ChatGPT o3.
+            </li>
+            <br>
+            <li>
+                (<a href="https://github.com/sbidwaibing/ChatHive-Memory-Driven-Messaging-Network-Infrastructure.git">Github</a>) ChatHive - Dynamic Memory Messaging System | C, C++, Unix Daemon, SQLite, System Fork, Named Pipes (FIFOs), IPC, GC:<br>
+                Desc: Developed a fault-tolerant parallel messaging system in C/C++ using Unix Daemon, FIFOs, and SQLite for reliable IPC and storage. Scaled to 500+ client messages/min with multithreading, zero memory leaks, and 99.9% uptime.
+            </li>
+            <br>
+            <li>
+                (<a href="https://github.com/sbidwaibing/Data-Driven-Recipe-Evaluation-Analysis-and-Complexity-Ranking-System.git">Github</a>) EataByte - Data-Driven Recipe Evaluation Analysis and Complexity Ranking System | JavaScript, MongoDB, Aggregate queries:<br>
+                Desc: Built MongoDB aggregate queries in JavaScript to compute recipe complexity, enable parameter substitutions, and analyze
+cooking patterns; applied generative analysis for ingredient optimization and waste reduction, and used Chart.js to visualize
+correlations.
+            </li>
+        </ol>
+    </p>
+</a>
+<hr>
+<a name="research">
+    <font color="black"  size="+1">Research & Publications</font>
+    <p>
+        <ol>
+            <li><a href="https://link.springer.com/chapter/10.1007/978-981-19-5224-1_49"><b>Springer Series:</b></a>
+                Bidwai, S., Jagdale, D., Hiremath, T., Bhutada, N., Bhingarkar, S. (2023). 
+                A Survey: Extraction of River Networks from Satellite Images. In: Fong, S., Dey, N., 
+                Joshi, A. (eds) ICT Analysis and Applications. Lecture Notes in Networks and Systems, 
+                vol 517. Springer, Singapore. https://doi.org/10.1007/978-981-19-5224-1_49, 06 November 2022, 
+                Springer, Singapore.</li>
+            <br>
+            <li><a href="https://ieeexplore.ieee.org/document/10088330"><b>IEEE Series:</b></a>
+                S. Bidwai, D. Jagdale, T. Hiremath, N. Bhutada and S. Bhingarkar, 
+                "Extraction of River Networks from Satellite Images using Image 
+                Processing & Deep Learning Techniques," 2022 International Conference 
+                on Advancements in Smart, Secure and Intelligent Computing (ASSIC), Bhubaneswar, 
+                India, 2022, pp. 1-6, doi: 10.1109/ASSIC55218.2022.10088330.</li>
+        </ol>
+    </p>
+</a>
+<hr>
+<a name="certifications">
+    <font color="black"  size="+1">Certifications</font>
+    <p>
+        Note: I would be uploading a complete list of my certifications soon. Meanwhile, you can find my relevant certifications on my <a href="https://www.linkedin.com/in/sukrutb">LinkedIn</a> profile
+    </p>
+</a>
+<hr>
+<a name="skills">
+    <font color="black"  size="+1">Skills</font>
+    <p>
+        <ol>
+            <li>Programming Languages:<br>C; C++; Java; JavaScript; Python</li><br>
+            <li>Database Systems:<br>Relational DB(SQLite, MySQL, Python SQL); NoSQL (MongoDB); PromQL</li><br>
+            <li>Other Technologies:<br>Unix; AWS; Azure; ServiceNow; Agile SDLC; Data Structures; Algorithms</li>
+        </ol>
+    </p>
+</a>
+<hr>
+<a name="contact">
+    <font color="black"  size="+1">Contact</font>
+    <p>
+        Name: Sukrut Bidwai<br>
+        Profession: Software Engineer<br>
+        Location: <a href="https://maps.app.goo.gl/k7Sr2SDMnexxzaJV8">New York, United States</a><br>
+        <a href="mailto:s.bidwai2000@gmail.com">Email</a> | 
+        <a href="https://www.linkedin.com/in/sukrutb">LinkedIn</a> | 
+        <a href="https://github.com/sbidwaibing">Github</a> | 
+        <a href="https://leetcode.com/u/sukrutb_">LeetCode</a>
+    </p>
+    <p style="text-align: left">     
+        Note: Feel free to reach out to me through the following mediums. I will do my best to respond within 24 hours.
+    </p>
+</a>
+<hr>
+<p style="text-align: center;">
+    Back to <a href="index.html">🏡</a>
+</p>
+<footer style="text-align: center; font-size: small; color: rgb(0, 76, 147);">
+    made with 🧠 by Sukrut. © Sukrutb, Inc. All rights reserved (2025)
+</footer>
+</body>
+</html>
